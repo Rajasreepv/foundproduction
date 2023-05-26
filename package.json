@@ -9,8 +9,16 @@
     "build": "cd frontend && npm run build",
     "backend": "cd backend && npm start",
     "install-server": "cd backend && npm install",
-    "start-server": "cd backend && node server.js",
-    "dev": "concurrently \" npm run frontend\" \"npm run backend\""
+    "install-client": "cd client && npm install",
+    "start-server": "cd backend && node server.js"
+
+   
+
+  
+    
+ 
+  
+
   },
   "author": "",
   "license": "ISC",
