@@ -11,20 +11,13 @@
     "install-server": "cd backend && npm install",
     "install-client": "cd client && npm install",
     "start-server": "cd backend && node server.js"
-
-   
-
-  
-    
- 
-  
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "concurrently": "^8.0.1",
+    "express": "^4.18.2",
     "react-bootstrap": "^2.7.4"
   }
 }
